@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        background: linear-gradient(to right, #c3e0ff, #ffffff);
+        margin: 0;
+        padding: 0;
+    }
+
+    .page-table {
+        width: 90%;
+        margin: 30px auto;
+        border: 4px solid #00008B;
+        background-color:pink;
+        border-collapse: collapse;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    }
+
+	
+    .nav-table { width: 100%; border-collapse: collapse; }
+    .nav-table td {
+        padding: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        background-color: pink;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+    .nav-table td:hover { background-color: #0033FF; color: #fffc00; transform: scale(1.1); }
+    .nav-table td a { text-decoration: none; color: white; display: block; }
+
+    .main-content { background-color: #2FA8FF; padding: 30px; }
+    .main-content table { width: 100%; border-collapse: collapse; }
+
+    .photo img {
+        width: 280px;
+        height: 350px;
+        border: 6px solid white;
+        box-shadow: 0 0 20px rgba(0,0,0,0.4);
+        border-radius: 15px;
+        transition: transform 0.5s ease, box-shadow 0.5s ease;
+    }
+    .photo img:hover {
+        transform: scale(1.05) rotate(1deg);
+        box-shadow: 0 0 30px rgba(0,0,0,0.6);
+    }
+
+    .personal-info { font-size: 19px; line-height: 1.8; padding: 20px; color: #ffffff; transition: transform 0.3s ease; }
+    .personal-info b { color: #ffeb3b; }
+    .personal-info i { color: #ffd700; margin-right: 8px; }
+
+    hr { border: 2px solid #00008B; margin: 30px 0; }
+
+    .card {
+        background-color: #f0f8ff;
+        color: #000;
+        padding: 20px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.15);
+        margin-bottom: 15px;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+    }
+    .card b { font-size: 22px; color: #00008B; }
+    .card i { margin-right: 10px; }
+
+    @media screen and (max-width:900px) {
+        .main-content table tr { display:block; }
+        .photo, .personal-info, .card { width:100% !important; text-align:center; padding:10px 0; }
+    }
+</style>
+</head>
+<body>
+
+<table class="page-table">
+
+    <tr>
+        <td colspan="4">
+            <table class="nav-table">
+                <tr>
+                    <td><a href="Home..html">HOME</a></td>
+                    <td><a href="info.html">INFO</a></td>
+                    <td><a href="Activty.Q4.html">FOOD</a></td>
+                    <td><a href="hobby.html">HOBBY</a></td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+<head>
+<title>Ayala</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+header {
+  background-color: pink;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: red;
+  padding: 20px;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: pink;
+  height: 300px; 
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+<header>
+  <h2>Food</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="Activty.Q4.html">Sea food</a></li>
+      <li><a href="Balut.html">Balut</a></li>
+      <li><a href="#">Mashed Potatoes</a></li>
+      <li><a href="Fries.html">Fries</a></li>
+      <li><a href="Gummy.html">Gummy</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Mashed Potatoes</h1>
+    <p>Mashed potatoes are a food made by boiling potatoes, then mashing them until soft and smooth.<br> They’re usually mixed with butter, milk, salt, and sometimes pepper or cheese to make them creamy and tasty.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
